@@ -1,0 +1,288 @@
+:root{
+    --color1:#ffd827 ;
+    --color:#ff811b;
+
+}
+
+   section{
+    padding: 100px 0;
+   
+}
+
+.icon {
+	background-image: url("icon.svg");
+	width: 40px;
+	height: 40px;
+}
+navbar-brand{
+    display: flex;
+    flex-direction: row;
+}
+
+header .container{
+    padding: 100px 0;
+    padding-top: 100px;
+}
+
+header, footer {
+    background-color: #ff811b;
+    ;
+}
+
+.itd_play{
+    background-color: var(--color1);
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 30px auto 30px;
+    transition: all 0.5s ease;
+}
+
+.itd_play:hover{
+    background-color: rgba(58, 37, 121, 0.956);
+}
+.itd_triangle{
+    margin-right: -3px;
+    width:0 ;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent var(--bs-white);
+}
+.btn-itd{
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    transition: 1s; /* Время эффекта */
+    color: var(--bs-white);
+    background-color:var(--color1);
+}
+
+.btn-itd:hover{
+    transform: scale(1.2); /* Увеличиваем масштаб */
+    color: var(--bs-white);
+    background-color:var(--color1);
+    transition: 1s; /* Время эффекта */
+}
+
+.textForFormNumber{
+    padding-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.color1 {
+    color: var(--color1)
+}
+
+.color2 {
+    color: var(--color)
+}
+
+.about, .shedule {
+    background-color:#eee;
+}
+
+.about svg{
+    margin:  0 auto 15px;
+    width: 70px;
+    height: 70px;
+margin-top: 100px;
+ 
+    color: var(--color)
+}
+
+.forwhom h5{
+    padding: 30px;
+    border: 3px solid var(--color1);
+}
+
+.accardionList{
+    background-color: #eee;
+    padding: 100px 0;
+}
+
+.textBig{
+    transition: 1s; /* Время эффекта */
+    
+  }
+
+  .textBig:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+  }
+
+  
+
+
+  .btnSkale{
+    transition: 1s; /* Время эффекта */
+    
+  }
+
+  
+  .btnSkale:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+  }
+
+
+
+  .kapitoskalogo{
+    text-shadow: 0.5px 0.5px 0.5px;
+    color: #ffffff;
+  }
+
+  .carusel{
+    background-color: #ff811b;
+    width: auto;
+    height: auto;
+  }
+
+  .card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    
+    
+}
+
+.containerCard{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+}
+.containerInviteCard{
+    background-color: #ffffff;
+    margin: 0px;
+}
+.containerMaps{
+    
+    background-color: #ff811b;
+}
+
+.logoSadic{
+    max-width: 50%;
+    max-height: 50%;
+
+    text-align: center;
+}
+
+.logoSadicDiv{
+    text-align: center;
+}
+
+.virtualTourText{
+    color: #ff811b;
+}
+
+.containerTour{
+    margin-top: 50px;
+}
+
+
+
+.containerpRrosloika{
+    background-color: #ff811b;
+    height: 70px;
+    margin-top: 100px;
+}
+
+
+
+
+.containerDopPrograms{
+    background-color: #ff811b;
+}
+
+.accordion-body{
+    text-align: left;
+}
+
+.containerInviteCardFooter{
+    background-color: #ff811b;
+    padding: 0px;
+}
+
+
+.footerGroupIMG{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:wrap ;
+}
+
+#footer{
+    height: 50px;
+    display: flex;
+}
+
+.btn-toolbar{
+    margin: auto;
+}
+
+.carusel{
+    padding: 0px;
+}
+
+
+.aBtnColor{
+    color: #eee;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 650px) {
+.VirtualTour{
+    height: 500px;
+    width: 90%;
+}
+}
